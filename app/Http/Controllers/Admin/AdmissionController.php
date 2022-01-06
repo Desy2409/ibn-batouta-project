@@ -21,12 +21,18 @@ class AdmissionController extends Controller
     public function index()
     {
         $admission = "Configuration des partenaires";
-        $admissions = Admission::all();
-        return view('admin.pages.admission_requirement', compact('admission', 'admissions'));
+        $admissionArabic = Admission::where('admissionable_type', '=', AdmissionArabic::class)->first();
+        $admissionEnglish = Admission::where('admissionable_type', '=', AdmissionEnglish::class)->first();
+        $admissionFrench = Admission::where('admissionable_type', '=', AdmissionFrench::class)->first();
+
+        return view('admin.pages.admission_requirement', compact('admission', 'admissionArabic', 'admissionEnglish', 'admissionFrench'));
     }
 
     public function store(Request $request)
     {
+        $latestAdmissionArabic = AdmissionArabic::latest()->first();
+        $latestAdmissionEnglish = AdmissionEnglish::latest()->first();
+        $latestAdmissionFrench = AdmissionFrench::latest()->first();
         // $this->validate(
         //     $request,
         //     [
@@ -40,51 +46,85 @@ class AdmissionController extends Controller
         // );
 
         try {
-            $admissionArabic = new AdmissionArabic();
-            $admissionArabic->save();
+            if ($latestAdmissionArabic) {
+                $admission = Admission::where('admissionable_type', '=', AdmissionArabic::class)->where('admissionable_id', '=', $latestAdmissionArabic->id)->first();
+                dd('1',$request->all());
+                
+                $admission->annual_registration_period = $request->annual_registration_period_ar;
+                $admission->general_requirement = $request->general_requirement_ar;
+                $admission->documents_to_provide = $request->documents_to_provide_ar;
+                $admission->assessment_test = $request->assessment_test_ar;
+                $admission->compulsory_fees = $request->compulsory_fees_ar;
+                $admission->save();
+            } else {
+                dd('2',$request->all());
+                $admissionArabic = new AdmissionArabic();
+                $admissionArabic->save();
 
-            $admission = new Admission();
-            $admission->annual_registration_period = $request->annual_registration_period_ar;
-            $admission->general_requirement = $request->general_requirement_ar;
-            $admission->documents_to_provide = $request->documents_to_provide_ar;
-            $admission->assessment_test = $request->assessment_test_ar;
-            $admission->compulsory_fees = $request->compulsory_fees_ar;
-            $admission->admission_requirementable_id = $admissionArabic->id;
-            $admission->admission_requirementable_type = AdmissionArabic::class;
-            $admission->save();
+                $admission = new Admission();
+                $admission->annual_registration_period = $request->annual_registration_period_ar;
+                $admission->general_requirement = $request->general_requirement_ar;
+                $admission->documents_to_provide = $request->documents_to_provide_ar;
+                $admission->assessment_test = $request->assessment_test_ar;
+                $admission->compulsory_fees = $request->compulsory_fees_ar;
+                $admission->admissionable_id = $admissionArabic->id;
+                $admission->admissionable_type = AdmissionArabic::class;
+                $admission->save();
+            }
 
+            if ($latestAdmissionEnglish) {
+                $admission = Admission::where('admissionable_type', '=', AdmissionEnglish::class)->where('admissionable_id', '=', $latestAdmissionEnglish->id)->first();
 
-            $admissionEnglish = new AdmissionEnglish();
-            $admissionEnglish->save();
+                $admission->annual_registration_period = $request->annual_registration_period_en;
+                $admission->general_requirement = $request->general_requirement_en;
+                $admission->documents_to_provide = $request->documents_to_provide_en;
+                $admission->assessment_test = $request->assessment_test_en;
+                $admission->compulsory_fees = $request->compulsory_fees_en;
+                $admission->save();
+            } else {
+                $admissionEnglish = new AdmissionEnglish();
+                $admissionEnglish->save();
 
-            $admission = new Admission();
-            $admission->annual_registration_period = $request->annual_registration_period_en;
-            $admission->general_requirement = $request->general_requirement_en;
-            $admission->documents_to_provide = $request->documents_to_provide_en;
-            $admission->assessment_test = $request->assessment_test_en;
-            $admission->compulsory_fees = $request->compulsory_fees_en;
-            $admission->admission_requirementable_id = $admissionEnglish->id;
-            $admission->admission_requirementable_type = AdmissionEnglish::class;
-            $admission->save();
+                $admission = new Admission();
+                $admission->annual_registration_period = $request->annual_registration_period_en;
+                $admission->general_requirement = $request->general_requirement_en;
+                $admission->documents_to_provide = $request->documents_to_provide_en;
+                $admission->assessment_test = $request->assessment_test_en;
+                $admission->compulsory_fees = $request->compulsory_fees_en;
+                $admission->admissionable_id = $admissionEnglish->id;
+                $admission->admissionable_type = AdmissionEnglish::class;
+                $admission->save();
+            }
 
+            if ($latestAdmissionFrench) {
+                $admission = Admission::where('admissionable_type', '=', AdmissionFrench::class)->where('admissionable_id', '=', $latestAdmissionFrench->id)->first();
 
-            $admissionFrench = new AdmissionFrench();
-            $admissionFrench->save();
+                $admission->annual_registration_period = $request->annual_registration_period_fr;
+                $admission->general_requirement = $request->general_requirement_fr;
+                $admission->documents_to_provide = $request->documents_to_provide_fr;
+                $admission->assessment_test = $request->assessment_test_fr;
+                $admission->compulsory_fees = $request->compulsory_fees_fr;
+                $admission->save();
+            } else {
+                $admissionFrench = new AdmissionFrench();
+                $admissionFrench->save();
 
-            $admission = new Admission();
-            $admission->annual_registration_period = $request->annual_registration_period_fr;
-            $admission->general_requirement = $request->general_requirement_fr;
-            $admission->documents_to_provide = $request->documents_to_provide_fr;
-            $admission->assessment_test = $request->assessment_test_fr;
-            $admission->compulsory_fees = $request->compulsory_fees_fr;
-            $admission->admission_requirementable_id = $admissionFrench->id;
-            $admission->admission_requirementable_type = AdmissionFrench::class;
-            $admission->save();
+                $admission = new Admission();
+                $admission->annual_registration_period = $request->annual_registration_period_fr;
+                $admission->general_requirement = $request->general_requirement_fr;
+                $admission->documents_to_provide = $request->documents_to_provide_fr;
+                $admission->assessment_test = $request->assessment_test_fr;
+                $admission->compulsory_fees = $request->compulsory_fees_fr;
+                $admission->admissionable_id = $admissionFrench->id;
+                $admission->admissionable_type = AdmissionFrench::class;
+                $admission->save();
+            }
 
             Session::flash('success', "Enregistrement effectué avec succès.");
 
-            return back();
+            return redirect()->back()->withInput();
         } catch (Exception $e) {
+            dd($e);
             Session::flash('error', "Erreur survenue lors de l'enregistrement.");
         }
     }

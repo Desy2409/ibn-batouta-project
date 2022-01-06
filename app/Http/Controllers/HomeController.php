@@ -13,9 +13,10 @@ class HomeController extends Controller
      *
      * @return \Illuminate\Contracts\Support\Renderable
      */
-    public function index()
+    public function index(Request $request)
     {
         // dd('home');
+        // dd($request->cookie('name'));
         return view('home');
     }
 }

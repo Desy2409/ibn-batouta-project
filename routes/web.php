@@ -1,6 +1,8 @@
 <?php
 
+use App\Http\Controllers\CookieController;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\LanguageController;
 use App\Http\Controllers\ShowcaseController;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
@@ -36,3 +38,9 @@ Route::prefix('english')->group(function () {
 Route::prefix('french')->group(function () {
     Route::get('/', [ShowcaseController::class, 'index'])->name('home');
 });
+
+// Route::get('/cookie/set',[CookieController::class,'setCookie']);
+// Route::get('/cookie/get',[CookieController::class,'getCookie']);
+
+
+Route::get('lang/{lang}', ['as' => 'lang.switch', 'uses' => [LanguageController::class,'switchLang']]);

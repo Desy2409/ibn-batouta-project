@@ -103,12 +103,4 @@ class ContactController extends Controller
             Session::flash('error', "Erreur survenue lors de l'enregistrement.");
         }
     }
-
-    public function update(Request $request, $id)
-    {
-    }
-
-    public function destroy($id)
-    {
-    }
 }

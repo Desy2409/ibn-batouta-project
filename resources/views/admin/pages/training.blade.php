@@ -300,7 +300,7 @@
                             <div class="col-lg-4 mb-3">
                                 <div class="form-group">
                                     <label for="id_number_of_students_ar" class="form-label">Nombre d'étudiants (en arabe) <span class="text-danger">*</span></label>
-                                    <textarea class="form-control" id="id_number_of_students_ar" name="number_of_students_ar" class="form-control @error('number_of_students_ar') is-invalid @enderror" placeholder="" rows="3">{{ $trainingArabic ? $trainingArabic->number_of_students : '' }}</textarea>
+                                    <textarea class="form-control" id="id_number_of_students_ar" name="number_of_students_ar" class="form-control @error('number_of_students_ar') is-invalid @enderror" placeholder="Saisissez le nombre d'étudiants" rows="3">{{ $trainingArabic ? $trainingArabic->number_of_students : '' }}</textarea>
                                     @error('number_of_students_ar')
                                         <span class="invalid-feedback" role="alert">
                                             <strong class="text-danger">{{ $message }}</strong>
@@ -311,7 +311,7 @@
                             <div class="col-lg-4 mb-3">
                                 <div class="form-group">
                                     <label for="id_number_of_students_en" class="form-label">Nombre d'étudiants (en anglais) <span class="text-danger">*</span></label>
-                                    <textarea class="form-control" id="id_number_of_students_en" name="number_of_students_en" class="form-control @error('number_of_students_en') is-invalid @enderror" placeholder="" rows="3">{{ $trainingEnglish ? $trainingEnglish->number_of_students : '' }}</textarea>
+                                    <textarea class="form-control" id="id_number_of_students_en" name="number_of_students_en" class="form-control @error('number_of_students_en') is-invalid @enderror" placeholder="Saisissez le nombre d'étudiants" rows="3">{{ $trainingEnglish ? $trainingEnglish->number_of_students : '' }}</textarea>
                                     @error('number_of_students_en')
                                         <span class="invalid-feedback" role="alert">
                                             <strong class="text-danger">{{ $message }}</strong>
@@ -322,7 +322,7 @@
                             <div class="col-lg-4 mb-3">
                                 <div class="form-group">
                                     <label for="id_number_of_students_fr" class="form-label">Nombre d'étudiants (en français) <span class="text-danger">*</span></label>
-                                    <textarea class="form-control" id="id_number_of_students_fr" name="number_of_students_fr" class="form-control @error('number_of_students_fr') is-invalid @enderror" placeholder="" rows="3">{{ $trainingFrench ? $trainingFrench->number_of_students : '' }}</textarea>
+                                    <textarea class="form-control" id="id_number_of_students_fr" name="number_of_students_fr" class="form-control @error('number_of_students_fr') is-invalid @enderror" placeholder="Saisissez le nombre d'étudiants" rows="3">{{ $trainingFrench ? $trainingFrench->number_of_students : '' }}</textarea>
                                     @error('number_of_students_fr')
                                         <span class="invalid-feedback" role="alert">
                                             <strong class="text-danger">{{ $message }}</strong>

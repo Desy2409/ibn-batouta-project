@@ -20,7 +20,7 @@ class CreateAdmissionsTable extends Migration
             $table->string('documents_to_provide');
             $table->string('assessment_test');
             $table->string('compulsory_fees');
-            $table->nullableMorphs('admissionable');
+            $table->nullableMorphs('f');
             $table->timestamps();
         });
     }
