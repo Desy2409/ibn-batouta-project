@@ -8,6 +8,6 @@ class InformationFrench extends Model
 {
     public function information()
     {
-        return $this->morphOne(SiteInformation::class, 'informationable');
+        return $this->morphOne(Information::class, 'informationable');
     }
 }

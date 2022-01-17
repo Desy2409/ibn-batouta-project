@@ -15,7 +15,7 @@ class CreatePartnersTable extends Migration
     {
         Schema::create('partners', function (Blueprint $table) {
             $table->id();
-            $table->longText('partner')->nullable();
+            $table->longText('partner')->nullable()->default('Aucune valeure définie');
             $table->nullableMorphs('partnerable');
             $table->timestamps();
         });

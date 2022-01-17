@@ -15,20 +15,22 @@ class CreateAboutsTable extends Migration
     {
         Schema::create('abouts', function (Blueprint $table) {
             $table->id();
-            $table->string('name')->nullable();
-            $table->string('currency')->nullable();
-            $table->string('geographic_location')->nullable();
-            $table->string('email')->nullable();
-            $table->string('web_site')->nullable();
-            $table->string('phone_number')->nullable();
-            $table->string('bp')->nullable();
-            $table->string('legal_situation')->nullable();
-            $table->string('stopped')->nullable();
-            $table->string('identity')->nullable();
-            $table->string('vision')->nullable();
-            $table->text('message')->nullable();
-            $table->string('value')->nullable();
-            $table->longText('goal')->nullable();
+            $table->string('name')->nullable()->default('Aucune valeure définie');
+            $table->string('currency')->nullable()->default('Aucune valeure définie');
+            $table->string('geographic_location')->nullable()->default('Aucune valeure définie');
+            $table->string('email')->nullable()->default('Aucune valeure définie');
+            $table->string('web_site')->nullable()->default('Aucune valeure définie');
+            $table->string('phone_number')->nullable()->default('Aucune valeure définie');
+            $table->string('bp')->nullable()->default('Aucune valeure définie');
+            $table->string('legal_situation')->nullable()->default('Aucune valeure définie');
+            $table->string('stopped')->nullable()->default('Aucune valeure définie');
+            $table->string('identity')->nullable()->default('Aucune valeure définie');
+            $table->longText('mission')->nullable()->default('Aucune valeure définie');
+            $table->longText('plan')->nullable()->default('Aucune valeure définie');
+            $table->longText('vision')->nullable()->default('Aucune valeure définie');
+            $table->text('message')->nullable()->default('Aucune valeure définie');
+            $table->text('value')->nullable()->default('Aucune valeure définie');
+            $table->longText('goal')->nullable()->default('Aucune valeure définie');
             $table->nullableMorphs('aboutable');
             $table->timestamps();
         });

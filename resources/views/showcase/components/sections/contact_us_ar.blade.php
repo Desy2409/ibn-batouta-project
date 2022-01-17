@@ -4,8 +4,8 @@
     <div class="container" data-aos="fade-up">
 
         <div class="section-header">
-            <h3>Contact Us</h3>
-            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+            <h3>POUR NOUS CONTACTER (en arabe)</h3>
+            <p>En dehors de notre support en ligne qui traite vos préoccupations, vous pouvez nous joindre ici ou par ces canaux : </p>
         </div>
 
         <div class="row contact-info">
@@ -14,7 +14,8 @@
                 <div class="contact-address">
                     <i class="bi bi-geo-alt"></i>
                     <h3>Address</h3>
-                    <address>A108 Adam Street, NY 535022, USA</address>
+                    {{-- <address>A108 Adam Street, NY 535022, USA</address> --}}
+                    <address>{{ $about->geographic_location }}</address>
                 </div>
             </div>
 

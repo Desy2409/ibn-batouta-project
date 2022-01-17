@@ -7,7 +7,10 @@ use Illuminate\Database\Eloquent\Model;
 
 class About extends Model
 {
-    public function aboutable(){
+    protected $fillable = ['mission', 'plan', 'vision'];
+
+    public function aboutable()
+    {
         return $this->morphTo();
     }
 }

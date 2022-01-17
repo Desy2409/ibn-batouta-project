@@ -2,7 +2,7 @@
 <section id="team">
     <div class="container" data-aos="fade-up">
         <div class="section-header">
-            <h3>Team</h3>
+            <h3>Team English</h3>
             <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
         </div>
 

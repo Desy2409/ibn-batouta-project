@@ -48,7 +48,6 @@ class AdmissionController extends Controller
         try {
             if ($latestAdmissionArabic) {
                 $admission = Admission::where('admissionable_type', '=', AdmissionArabic::class)->where('admissionable_id', '=', $latestAdmissionArabic->id)->first();
-                dd('1',$request->all());
                 
                 $admission->annual_registration_period = $request->annual_registration_period_ar;
                 $admission->general_requirement = $request->general_requirement_ar;
@@ -57,7 +56,6 @@ class AdmissionController extends Controller
                 $admission->compulsory_fees = $request->compulsory_fees_ar;
                 $admission->save();
             } else {
-                dd('2',$request->all());
                 $admissionArabic = new AdmissionArabic();
                 $admissionArabic->save();
 

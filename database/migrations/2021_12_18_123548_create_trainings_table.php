@@ -15,16 +15,16 @@ class CreateTrainingsTable extends Migration
     {
         Schema::create('trainings', function (Blueprint $table) {
             $table->id();
-            $table->string('instruction_languages')->nullable();
-            $table->longText('program')->nullable();
-            $table->longText('faculty')->nullable();
-            $table->longText('job')->nullable();
-            $table->text('final_registration_fee')->nullable();
-            $table->text('annual_registration_period')->nullable();
-            $table->longText('tuition_fees')->nullable();
-            $table->text('scholarship')->nullable();
-            $table->text('number_of_students')->nullable();
-            $table->text('target_social_category')->nullable();
+            $table->string('instruction_languages')->nullable()->default('Aucune valeure définie');
+            $table->longText('program')->nullable()->default('Aucune valeure définie');
+            $table->longText('faculty')->nullable()->default('Aucune valeure définie');
+            $table->longText('job')->nullable()->default('Aucune valeure définie');
+            $table->text('final_registration_fee')->nullable()->default('Aucune valeure définie');
+            $table->text('annual_registration_period')->nullable()->default('Aucune valeure définie');
+            $table->longText('tuition_fees')->nullable()->default('Aucune valeure définie');
+            $table->text('scholarship')->nullable()->default('Aucune valeure définie');
+            $table->text('number_of_students')->nullable()->default('Aucune valeure définie');
+            $table->text('target_social_category')->nullable()->default('Aucune valeure définie');
             $table->nullableMorphs('trainingable');
             $table->timestamps();
         });

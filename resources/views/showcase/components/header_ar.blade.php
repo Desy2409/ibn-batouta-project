@@ -34,22 +34,13 @@
                               </ul>
                           </li>
                           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-                          <li class="dropdown"><a href="#"><span>Langues</span> <i class="bi bi-chevron-down"></i></a>
-                              <ul>
-                                  <li class="nav-item dropdown">
-                                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                          {{ Config::get('languages')[App::getLocale()] }}
-                                      </a>
-                                      <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                          @foreach (Config::get('languages') as $lang => $language)
-                                              @if ($lang != App::getLocale())
-                                                  <a class="dropdown-item" href="{{ route('lang.switch', $lang) }}"> {{ $language }}</a>
-                                              @endif
-                                          @endforeach
-                                      </div>
-                                  </li>
-                              </ul>
-                          </li>
+                          <li class="dropdown"><a href="{{ route('arabic') }}"><span>Arabe</span> <i class="bi bi-chevron-down"></i></a>
+                            <ul>
+                                <li><a href="{{ route('french') }}">Français</a></li>
+                                <li><a href="{{ route('english') }}">Anglais</a></li>
+                                {{-- <li><a href="{{ route('arabic') }}">Arabe</a></li> --}}
+                            </ul>
+                        </li>
                       </ul>
                       <i class="bi bi-list mobile-nav-toggle"></i>
                   </nav><!-- .navbar -->

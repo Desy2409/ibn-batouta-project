@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class InformationArabic extends Model
 {
-    public function Information()
+    public function information()
     {
         return $this->morphOne(Information::class, 'informationable');
     }

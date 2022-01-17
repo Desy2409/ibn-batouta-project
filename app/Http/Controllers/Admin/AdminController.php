@@ -22,4 +22,12 @@ class AdminController extends Controller
     public function contactNotification(){
         return auth()->user()->unreadNotifications;
     }
+
+    public function store(Request $request){
+        $this->validate($request,[],[]);
+    }
+
+    public function update(){
+
+    }
 }
