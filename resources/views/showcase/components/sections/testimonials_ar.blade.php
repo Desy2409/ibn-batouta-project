@@ -3,7 +3,7 @@
     <div class="container" data-aos="fade-up">
 
         <header class="section-header">
-            <h3>Ce qu'ils pensent et disent de nous à IAIB (en arabe)</h3>
+            <h3>ماذا يفكرون ويقولون عنا في IAIB</h3>
         </header>
 
         <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">

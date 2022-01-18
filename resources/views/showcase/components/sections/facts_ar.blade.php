@@ -5,30 +5,30 @@
         <div class="container">
 
             <header class="section-header">
-                <h3>IAIB en quelques chiffres (en arabe)</h3>
-                <p>Quelques statistiques qui traduisent le performance et l'évolution de notre Institut depuis son ouverture en 2016</p>
+                <h3>IAIB بالأرقام</h3>
+                <p>بعض الإحصائيات التي تعكس أداء وتطور معهدنا منذ افتتاحه في عام 2016</p>
             </header>
 
             <div class="row counters">
 
                 <div class="col-lg-3 col-6 text-center">
                     <span data-toggle="counter-up">2074</span>
-                    <p>Etudiants</p>
+                    <p>الطلاب</p>
                 </div>
 
                 <div class="col-lg-3 col-6 text-center">
                     <span data-toggle="counter-up">121</span>
-                    <p>Enseignants</p>
+                    <p>معلمون</p>
                 </div>
 
                 <div class="col-lg-3 col-6 text-center">
-                    <span data-toggle="counter-up">10,394</span>
-                    <p>Heures pédagogiques</p>
+                    <span data-toggle="counter-up">10394</span>
+                    <p>ساعات التدريس</p>
                 </div>
 
                 <div class="col-lg-3 col-6 text-center">
                     <span data-toggle="counter-up">18</span>
-                    <p>Trophées prestgieuses</p>
+                    <p>الجوائز المرموقة</p>
                 </div>
 
             </div>

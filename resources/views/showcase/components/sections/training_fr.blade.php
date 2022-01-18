@@ -161,3 +161,5 @@
         </div>
     </section>
     <!-- #portfolio -->
+
+    @include('showcase.components.sections.testimonials_fr')

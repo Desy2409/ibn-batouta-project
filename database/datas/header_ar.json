@@ -1,9 +1,9 @@
 [{
-    "home": "ACCUEIL",
+    "home": "ترحيب",
     "iaib": "IAIB",
-    "opportunity": "OPPROTUNITES",
-    "training": "FORMATIONS",
-    "team": "EQUIPE",
-    "press": "PRESSE",
-    "contact": "CONTATCT"
+    "opportunity": "فرص",
+    "training": "تمرين",
+    "team": "مجهز",
+    "press": "عجل",
+    "contact": "اتصل"
 }]

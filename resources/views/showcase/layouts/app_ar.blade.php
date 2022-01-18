@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>IBN BATOUTA | @yield('page-title')</title>
+    <title>Institut Africain IBN BATOUTA | IAIB - @yield('page-title')</title>
     <meta content="" name="description">
     <meta content="" name="keywords">
 
@@ -51,9 +51,9 @@
                     <div class="carousel-item active" style="background-image: url(assets/showcase/img/hero-carousel/1.jpg)">
                         <div class="carousel-container">
                             <div class="container">
-                                <h2 class="animate__animated animate__fadeInDown">We are professional</h2>
-                                <p class="animate__animated animate__fadeInUp">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                                <a href="#featured-services" class="btn-get-started scrollto animate__animated animate__fadeInUp">Get Started</a>
+                                <h2 class="animate__animated animate__fadeInDown">جميعًا معًا ضد COVID-19</h2>
+                                <p class="animate__animated animate__fadeInUp">في السنوات الأخيرة ، واجهت البشرية جمعاء أكبر أزمة صحية في التاريخ مرتبطة بـ SARS-Cov2. اتخذت حكومة بنن ، مثل البلدان الأخرى ، تدابير نؤيدها جميعا للقضاء على هذه الآفة مع ضمان الاستمرارية التعليمية.</p>
+                                {{-- <a href="#featured-services" class="btn-get-started scrollto animate__animated animate__fadeInUp">Get Started</a> --}}
                             </div>
                         </div>
                     </div>
@@ -61,9 +61,9 @@
                     <div class="carousel-item" style="background-image: url(assets/showcase/img/hero-carousel/2.jpg)">
                         <div class="carousel-container">
                             <div class="container">
-                                <h2 class="animate__animated animate__fadeInDown">At vero eos et accusamus</h2>
-                                <p class="animate__animated animate__fadeInUp">Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut.</p>
-                                <a href="#featured-services" class="btn-get-started scrollto animate__animated animate__fadeInUp">Get Started</a>
+                                <h2 class="animate__animated animate__fadeInDown">نتائجنا في امتحان الترخيص الوطني</h2>
+                                <p class="animate__animated animate__fadeInUp">معهد ابن بطوطة الأفريقي ، أول مؤسسة ناطقة باللغة العربية للتعليم العالي والبحث العلمي والتدريب المهني ، قدم لأول مرة في تاريخ بنين طلابه (33) إلى الامتحانات الوطنية للرخصة المهنية جلسة سبتمبر 2021. معدل القبول : 100٪ ...</p>
+                                {{-- <a href="#featured-services" class="btn-get-started scrollto animate__animated animate__fadeInUp">Get Started</a> --}}
                             </div>
                         </div>
                     </div>
@@ -71,9 +71,9 @@
                     <div class="carousel-item" style="background-image: url(assets/showcase/img/hero-carousel/3.jpg)">
                         <div class="carousel-container">
                             <div class="container">
-                                <h2 class="animate__animated animate__fadeInDown">Temporibus autem quibusdam</h2>
-                                <p class="animate__animated animate__fadeInUp">Beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt omnis iste natus error sit voluptatem accusantium.</p>
-                                <a href="#featured-services" class="btn-get-started scrollto animate__animated animate__fadeInUp">Get Started</a>
+                                <h2 class="animate__animated animate__fadeInDown">دوراتنا التدريبية</h2>
+                                <p class="animate__animated animate__fadeInUp">نحن نستعد للحصول على الترخيص وقريبًا للحصول على درجة الماجستير في [1] الآداب والأدب ، [2] التدريب الفني في علوم التربية و [3] الدراسات الإسلامية. يُسمح بثلاث لغات للتدريس: الفرنسية والإنجليزية والعربية. وفي نفس الوقت نقدم دورة للبكالوريا الدولية وترقية البرامج ... والأنشطة القرآنية.</p>
+                                {{-- <a href="#featured-services" class="btn-get-started scrollto animate__animated animate__fadeInUp">Get Started</a> --}}
                             </div>
                         </div>
                     </div>
@@ -81,9 +81,9 @@
                     <div class="carousel-item" style="background-image: url(assets/showcase/img/hero-carousel/4.jpg)">
                         <div class="carousel-container">
                             <div class="container">
-                                <h2 class="animate__animated animate__fadeInDown">Nam libero tempore</h2>
-                                <p class="animate__animated animate__fadeInUp">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum.</p>
-                                <a href="#featured-services" class="btn-get-started scrollto animate__animated animate__fadeInUp">Get Started</a>
+                                <h2 class="animate__animated animate__fadeInDown">ما الجديد للعام الدراسي 2021-2022</h2>
+                                <p class="animate__animated animate__fadeInUp">كجزء من الأنشطة الأكاديمية أو التعليمية للعام الجديد 2021-2022 ، بصرف النظر عن دوراتنا المعتادة ، فإننا نركز بشكل خاص على تعزيز دورات التعلم عن بعد من خلال الدورات المدروسة من منصة التعلم عن بعد الخاصة بنا http: // elearning.ibnbatouta-edu. شبكة متاحة للهواتف وأجهزة الكمبيوتر المحمولة. التطبيق متاح أيضًا لنظامي التشغيل Android و iOS.</p>
+                                {{-- <a href="#featured-services" class="btn-get-started scrollto animate__animated animate__fadeInUp">Get Started</a> --}}
                             </div>
                         </div>
                     </div>
@@ -91,9 +91,10 @@
                     <div class="carousel-item" style="background-image: url(assets/showcase/img/hero-carousel/5.jpg)">
                         <div class="carousel-container">
                             <div class="container">
-                                <h2 class="animate__animated animate__fadeInDown">Magnam aliquam quaerat</h2>
-                                <p class="animate__animated animate__fadeInUp">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                                <a href="#featured-services" class="btn-get-started scrollto animate__animated animate__fadeInUp">Get Started</a>
+                                <h2 class="animate__animated animate__fadeInDown">اليوم العالمي للغة العربية</h2>
+                                <p class="animate__animated animate__fadeInUp">بمناسبة اليوم العالمي للغة العربية الذي يتم الاحتفال به في 18 ديسمبر 2021 ، يرغب معهد ابن بطوطة الأفريقي في ربط تعلم اللغة العربية بالفن والمتعة من خلال المشاركة
+                                    الطلاب في إعداد المعارض والعروض التقديمية والعروض حول اللغة العربية الفصحى والحديثة.</p>
+                                {{-- <a href="#featured-services" class="btn-get-started scrollto animate__animated animate__fadeInUp">Get Started</a> --}}
                             </div>
                         </div>
                     </div>
@@ -121,20 +122,20 @@
 
                     <div class="col-lg-4 box">
                         <i class="bi bi-briefcase"></i>
-                        <h4 class="title"><a href="">Lorem Ipsum Delino</a></h4>
-                        <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+                        <h4 class="title"><a href="">كتالوج التدريب</a></h4>
+                        <p class="description">بصرف النظر عن دورات البكالوريوس والماجستير والدكتوراه (قريبًا) ، نقدم العديد من الدورات التدريبية الانتقائية الأخرى.</p>
                     </div>
 
                     <div class="col-lg-4 box box-bg">
                         <i class="bi bi-card-checklist"></i>
-                        <h4 class="title"><a href="">Dolor Sitema</a></h4>
-                        <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
+                        <h4 class="title"><a href="">احترام التزاماتنا</a></h4>
+                        <p class="description">بدون انقطاع ، يقوم المتعلمون لدينا ، تحت إشراف فريق من المحترفين ، بإكمال مسارهم الدراسي ضمن الإطار الزمني المتفق عليه تعاقديًا.</p>
                     </div>
 
                     <div class="col-lg-4 box">
                         <i class="bi bi-binoculars"></i>
-                        <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
-                        <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+                        <h4 class="title"><a href="">حب اللغة العربية</a></h4>
+                        <p class="description">كيف لا نحب هذه اللغة العربية الرائعة التي أعطتنا كل شيء. لهذا نكرس له الأنشطة في المنزل ...</p>
                     </div>
 
                 </div>
@@ -144,17 +145,6 @@
         @include('showcase.components.sections.about_us_ar')
         @include('showcase.components.sections.opportunities_ar')
         {{-- @include('showcase.components.sections.portfolio') --}}
-
-
-        <!-- ======= Call To Action Section ======= -->
-        <section id="call-to-action">
-            <div class="container text-center" data-aos="zoom-in">
-                <h3>Call To Action</h3>
-                <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <a class="cta-btn" href="#">Call To Action</a>
-            </div>
-        </section><!-- End Call To Action Section -->
-
 
         @include('showcase.components.sections.training_ar')
         @include('showcase.components.sections.teams_ar')

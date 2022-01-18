@@ -5,29 +5,30 @@
             <div class="row">
 
                 <div class="col-lg-3 col-md-6 footer-info">
-                    <h3>BizPage</h3>
+                    <h3>IBN BATOUTA</h3>
                     <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus. Scelerisque felis imperdiet proin fermentum leo. Amet volutpat consequat mauris nunc congue.</p>
                 </div>
 
                 <div class="col-lg-3 col-md-6 footer-links">
-                    <h4>Useful Links</h4>
+                    <h4>Liens utiles</h4>
                     <ul>
-                        <li><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li>
-                        <li><i class="bi bi-chevron-right"></i> <a href="#">About us</a></li>
-                        <li><i class="bi bi-chevron-right"></i> <a href="#">Services</a></li>
-                        <li><i class="bi bi-chevron-right"></i> <a href="#">Terms of service</a></li>
-                        <li><i class="bi bi-chevron-right"></i> <a href="#">Privacy policy</a></li>
+                        <li><i class="bi bi-chevron-right"></i> <a href="#">ترحيب</a></li>
+                        <li><i class="bi bi-chevron-right"></i> <a href="#">IAIB</a></li>
+                        <li><i class="bi bi-chevron-right"></i> <a href="#">فرص</a></li>
+                        <li><i class="bi bi-chevron-right"></i> <a href="#">تمرين</a></li>
+                        <li><i class="bi bi-chevron-right"></i> <a href="#">مجهز</a></li>
+                        <li><i class="bi bi-chevron-right"></i> <a href="#">عجل</a></li>
+                        <li><i class="bi bi-chevron-right"></i> <a href="#">اتصل</a></li>
                     </ul>
                 </div>
 
                 <div class="col-lg-3 col-md-6 footer-contact">
-                    <h4>Contact Us</h4>
+                    <h4>اتصل بنا</h4>
                     <p>
-                        A108 Adam Street <br>
-                        New York, NY 535022<br>
-                        United States <br>
-                        <strong>Phone:</strong> +1 5589 55488 55<br>
-                        <strong>Email:</strong> info@example.com<br>
+                        Quartier AGBOKOU<br> Porto-Novo, Dépt. Ouémé<br> République du Bénin<br>
+                        <strong>Infoline 1:</strong> +229 96941349<br>
+                        <strong>Infoline 2:</strong> +229 62671001<br>
+                        <strong>Email:</strong> iaib@ibnbatouta-edu.net<br>
                     </p>
 
                     <div class="social-links">
@@ -41,8 +42,8 @@
                 </div>
 
                 <div class="col-lg-3 col-md-6 footer-newsletter">
-                    <h4>Our Newsletter</h4>
-                    <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna veniam enim veniam illum dolore legam minim quorum culpa amet magna export quem marada parida nodela caramase seza.</p>
+                    <h4>نشرتنا الإخبارية</h4>
+                    <p>لتلقي الكتالوج الخاص بنا بالدورات الجديدة مجانًا ، اشترك في النشرة الإخبارية.</p>
                     <form action="" method="post">
                         <input type="email" name="email"><input type="submit" value="Subscribe">
                     </form>
@@ -54,7 +55,7 @@
 
     <div class="container">
         <div class="copyright">
-            &copy; Copyright <strong>BizPage</strong>. All Rights Reserved
+            &copy; Copyright <strong>IAIB</strong>. Tous droits réservés.
         </div>
         <div class="credits">
             <!--
@@ -63,7 +64,7 @@
     Licensing information: https://bootstrapmade.com/license/
     Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=BizPage
   -->
-            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+            Designed by <a href="https://bootstrapmade.com/">PoolDev</a>
         </div>
     </div>
 </footer>

@@ -4,7 +4,7 @@
     <div class="container" data-aos="fade-up">
 
         <header class="section-header">
-            <h3>A PROPOS DE L'INSTITUT AFRICAIN IBN BATOUTA (en anglais)</h3>
+            <h3>ABOUT THE IBN BATOUTA AFRICAN INSTITUTE</h3>
             <p>{{ $about->stopped }}</p>
         </header>
 
@@ -15,7 +15,7 @@
                         <img src="{{ asset('assets/showcase/img/about-mission.jpg') }}" alt="" class="img-fluid">
                         <div class="icon"><i class="bi bi-bar-chart"></i></div>
                     </div>
-                    <h2 class="title"><a href="#">Notre Mission</a></h2>
+                    <h2 class="title"><a href="#">Our mission</a></h2>
                     <p>
                         {{ $about->mission }}
                     </p>
@@ -27,7 +27,7 @@
                         <img src="{{ asset('assets/showcase/img/about-plan.jpg') }}" alt="" class="img-fluid">
                         <div class="icon"><i class="bi bi-brightness-high"></i></div>
                     </div>
-                    <h2 class="title"><a href="#">Notre Plan</a></h2>
+                    <h2 class="title"><a href="#">Our plan</a></h2>
                     <p>
                         {{ $about->plan }}
                     </p>
@@ -39,7 +39,7 @@
                         <img src="{{ asset('assets/showcase/img/about-vision.jpg') }}" alt="" class="img-fluid">
                         <div class="icon"><i class="bi bi-calendar4-week"></i></div>
                     </div>
-                    <h2 class="title"><a href="#">Notre Vision</a></h2>
+                    <h2 class="title"><a href="#">Our Vision</a></h2>
                     <p>
                         {{ $about->vision }}
                     </p>

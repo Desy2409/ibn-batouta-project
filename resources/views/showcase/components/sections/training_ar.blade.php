@@ -1,164 +1,165 @@
-<!-- ======= Portfolio Section ======= -->
-<section id="portfolio" class="section-bg">
-    <div class="container" data-aos="fade-up">
+<!--==========================
+      Portfolio Section
+    ============================-->
+    <section id="portfolio" class="section-bg">
+        <div class="container">
 
-        <header class="section-header">
-            <h3 class="section-title">Our Portfolio Arabic</h3>
-        </header>
+            <header class="section-header">
+                <h3 class="section-title">دوراتنا التدريبية</h3>
+            </header>
 
-        <div class="row" data-aos="fade-up" data-aos-delay="100"">
-        <div class="col-lg-12">
-            <ul id="portfolio-flters">
-                <li data-filter="*" class="filter-active">All</li>
-                <li data-filter=".filter-app">App</li>
-                <li data-filter=".filter-card">Card</li>
-                <li data-filter=".filter-web">Web</li>
-            </ul>
-        </div>
-    </div>
-
-    <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-                <figure>
-                    <img src="assets/img/portfolio/app1.jpg" class="img-fluid" alt="">
-                    <a href="assets/img/portfolio/app1.jpg" data-lightbox="portfolio" data-title="App 1" class="link-preview"><i class="bi bi-plus"></i></a>
-                    <a href="portfolio-details.html" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
-                </figure>
-
-                <div class="portfolio-info">
-                    <h4><a href="portfolio-details.html">App 1</a></h4>
-                    <p>App</p>
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul id="portfolio-flters">
+                        <li data-filter="*" class="filter-active">الجميع</li>
+                        <li data-filter=".filter-app">أدب و أدب عربي</li>
+                        <li data-filter=".filter-card">العلوم التربوية</li>
+                        <li data-filter=".filter-web">الدراسات الإسلامية</li>
+                    </ul>
                 </div>
             </div>
-        </div>
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-                <figure>
-                    <img src="assets/img/portfolio/web3.jpg" class="img-fluid" alt="">
-                    <a href="assets/img/portfolio/web3.jpg" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Web 3"><i class="bi bi-plus"></i></a>
-                    <a href="portfolio-details.html" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
-                </figure>
+            <div class="row portfolio-container">
 
-                <div class="portfolio-info">
-                    <h4><a href="portfolio-details.html">Web 3</a></h4>
-                    <p>Web</p>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app wow fadeInUp">
+                    <div class="portfolio-wrap">
+                        <figure>
+                            <img src="{{ asset('assets/showcase/img/portfolio/app1.jpg') }}" class="img-fluid" alt="">
+                            <a href="{{ asset('assets/showcase/img/portfolio/app1.jpg') }}" data-lightbox="portfolio" data-title="Langue arabe" class="link-preview" title="Aperçu"><i class="ion ion-eye"></i></a>
+                            <a href="#" class="link-details" title="Plus de détails"><i class="ion ion-android-open"></i></a>
+                        </figure>
+
+                        <div class="portfolio-info">
+                            <h4><a href="#">اللغة العربية</a></h4>
+                            <p>أدب و أدب عربي</p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </div>
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-                <figure>
-                    <img src="assets/img/portfolio/app2.jpg" class="img-fluid" alt="">
-                    <a href="assets/img/portfolio/app2.jpg" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="App 2"><i class="bi bi-plus"></i></a>
-                    <a href="portfolio-details.html" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
-                </figure>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-web wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="portfolio-wrap">
+                        <figure>
+                            <img src="{{ asset('assets/showcase/img/portfolio/web3.jpg') }}" class="img-fluid" alt="">
+                            <a href="{{ asset('assets/showcase/img/portfolio/web3.jpg') }}" class="link-preview" data-lightbox="portfolio" data-title="Sciences coraniques" title="Aperçu"><i class="ion ion-eye"></i></a>
+                            <a href="#" class="link-details" title="Plus de détails"><i class="ion ion-android-open"></i></a>
+                        </figure>
 
-                <div class="portfolio-info">
-                    <h4><a href="portfolio-details.html">App 2</a></h4>
-                    <p>App</p>
+                        <div class="portfolio-info">
+                            <h4><a href="#">علوم قرآنية</a></h4>
+                            <p>الدراسات الإسلامية</p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </div>
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-                <figure>
-                    <img src="assets/img/portfolio/card2.jpg" class="img-fluid" alt="">
-                    <a href="assets/img/portfolio/card2.jpg" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Card 2"><i class="bi bi-plus"></i></a>
-                    <a href="portfolio-details.html" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
-                </figure>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="portfolio-wrap">
+                        <figure>
+                            <img src="{{ asset('assets/showcase/img/portfolio/app2.jpg') }}" class="img-fluid" alt="">
+                            <a href="{{ asset('assets/showcase/img/portfolio/app2.jpg') }}" class="link-preview" data-lightbox="portfolio" data-title="Littérature Arabe" title="Aperçu"><i class="ion ion-eye"></i></a>
+                            <a href="#" class="link-details" title="Plus de détails"><i class="ion ion-android-open"></i></a>
+                        </figure>
 
-                <div class="portfolio-info">
-                    <h4><a href="portfolio-details.html">Card 2</a></h4>
-                    <p>Card</p>
+                        <div class="portfolio-info">
+                            <h4><a href="#">الأدب العربي والأفريقي</a></h4>
+                            <p>أدب و أدب عربي</p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </div>
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-                <figure>
-                    <img src="assets/img/portfolio/web2.jpg" class="img-fluid" alt="">
-                    <a href="assets/img/portfolio/web2.jpg" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Web 2"><i class="bi bi-plus"></i></a>
-                    <a href="portfolio-details.html" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
-                </figure>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-card wow fadeInUp">
+                    <div class="portfolio-wrap">
+                        <figure>
+                            <img src="{{ asset('assets/showcase/img/portfolio/card2.jpg') }}" class="img-fluid" alt="">
+                            <a href="{{ asset('assets/showcase/img/portfolio/card2.jpg') }}" class="link-preview" data-lightbox="portfolio" data-title="Tourisme et Loisirs" title="Aperçu"><i class="ion ion-eye"></i></a>
+                            <a href="#" class="link-details" title="Plus de détails"><i class="ion ion-android-open"></i></a>
+                        </figure>
 
-                <div class="portfolio-info">
-                    <h4><a href="portfolio-details.html">Web 2</a></h4>
-                    <p>Web</p>
+                        <div class="portfolio-info">
+                            <h4><a href="#">السياحة والترفيه</a></h4>
+                            <p>العلوم التربوية</p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </div>
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-                <figure>
-                    <img src="assets/img/portfolio/app3.jpg" class="img-fluid" alt="">
-                    <a href="assets/img/portfolio/app3.jpg" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="App 3"><i class="bi bi-plus"></i></a>
-                    <a href="portfolio-details.html" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
-                </figure>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-web wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="portfolio-wrap">
+                        <figure>
+                            <img src="{{ asset('assets/showcase/img/portfolio/web2.jpg') }}" class="img-fluid" alt="">
+                            <a href="{{ asset('assets/showcase/img/portfolio/web2.jpg') }}" class="link-preview" data-lightbox="portfolio" data-title="Dogmes et pensées islamiques" title="Aperçu"><i class="ion ion-eye"></i></a>
+                            <a href="#" class="link-details" title="Plus de détails"><i class="ion ion-android-open"></i></a>
+                        </figure>
 
-                <div class="portfolio-info">
-                    <h4><a href="portfolio-details.html">App 3</a></h4>
-                    <p>App</p>
+                        <div class="portfolio-info">
+                            <h4><a href="#">العقائد والأفكار الإسلامية</a></h4>
+                            <p>الدراسات الإسلامية</p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </div>
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-                <figure>
-                    <img src="assets/img/portfolio/card1.jpg" class="img-fluid" alt="">
-                    <a href="assets/img/portfolio/card1.jpg" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Card 1"><i class="bi bi-plus"></i></a>
-                    <a href="portfolio-details.html" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
-                </figure>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="portfolio-wrap">
+                        <figure>
+                            <img src="{{ asset('assets/showcase/img/portfolio/app3.jpg') }}" class="img-fluid" alt="">
+                            <a href="{{ asset('assets/showcase/img/portfolio/app3.jpg') }}" class="link-preview" data-lightbox="portfolio" data-title="Traduction et Interprétariat" title="Aperçu"><i class="ion ion-eye"></i></a>
+                            <a href="#" class="link-details" title="Plus de détails"><i class="ion ion-android-open"></i></a>
+                        </figure>
 
-                <div class="portfolio-info">
-                    <h4><a href="portfolio-details.html">Card 1</a></h4>
-                    <p>Card</p>
+                        <div class="portfolio-info">
+                            <h4><a href="#">الترجمة التحريرية والشفوية</a></h4>
+                            <p>أدب و أدب عربي</p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </div>
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-                <figure>
-                    <img src="assets/img/portfolio/card3.jpg" class="img-fluid" alt="">
-                    <a href="assets/img/portfolio/card3.jpg" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Card 3"><i class="bi bi-plus"></i></a>
-                    <a href="portfolio-details.html" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
-                </figure>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-card wow fadeInUp">
+                    <div class="portfolio-wrap">
+                        <figure>
+                            <img src="{{ asset('assets/showcase/img/portfolio/card1.jpg') }}" class="img-fluid" alt="">
+                            <a href="{{ asset('assets/showcase/img/portfolio/card1.jpg') }}" class="link-preview" data-lightbox="portfolio" data-title="Education et Enseignement" title="Aperçu"><i class="ion ion-eye"></i></a>
+                            <a href="#" class="link-details" title="Plus de détails"><i class="ion ion-android-open"></i></a>
+                        </figure>
 
-                <div class="portfolio-info">
-                    <h4><a href="portfolio-details.html">Card 3</a></h4>
-                    <p>Card</p>
+                        <div class="portfolio-info">
+                            <h4><a href="#">التربية والتعليم</a></h4>
+                            <p>العلوم التربوية</p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </div>
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-                <figure>
-                    <img src="assets/img/portfolio/web1.jpg" class="img-fluid" alt="">
-                    <a href="assets/img/portfolio/web1.jpg" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Web 1"><i class="bi bi-plus"></i></a>
-                    <a href="portfolio-details.html" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
-                </figure>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-card wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="portfolio-wrap">
+                        <figure>
+                            <img src="{{ asset('assets/showcase/img/portfolio/card3.jpg') }}" class="img-fluid" alt="">
+                            <a href="{{ asset('assets/showcase/img/portfolio/card3.jpg') }}" class="link-preview" data-lightbox="portfolio" data-title="Communication et Journalisme" title="Aperçu"><i class="ion ion-eye"></i></a>
+                            <a href="#" class="link-details" title="Plus de détails"><i class="ion ion-android-open"></i></a>
+                        </figure>
 
-                <div class="portfolio-info">
-                    <h4><a href="portfolio-details.html">Web 1</a></h4>
-                    <p>Web</p>
+                        <div class="portfolio-info">
+                            <h4><a href="#">الاتصال والصحافة</a></h4>
+                            <p>العلوم التربوية</p>
+                        </div>
+                    </div>
                 </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-web wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="portfolio-wrap">
+                        <figure>
+                            <img src="{{ asset('assets/showcase/img/portfolio/web1.jpg') }}" class="img-fluid" alt="">
+                            <a href="{{ asset('assets/showcase/img/portfolio/web1.jpg') }}" class="link-preview" data-lightbox="portfolio" data-title="Finances Islamiques" title="Aperçu"><i class="ion ion-eye"></i></a>
+                            <a href="#" class="link-details" title="Plus de détails"><i class="ion ion-android-open"></i></a>
+                        </figure>
+
+                        <div class="portfolio-info">
+                            <h4><a href="#">التمويل الإسلامي</a></h4>
+                            <p>الدراسات الإسلامية</p>
+                        </div>
+                    </div>
+                </div>
+
             </div>
+
         </div>
+    </section>
+    <!-- #portfolio -->
 
-    </div>
-
-    </div>
-</section>
-<!-- End Portfolio Section -->
-
-@include('showcase.components.sections.partners_ar')
-@include('showcase.components.sections.testimonials_ar')
+    @include('showcase.components.sections.testimonials_ar')

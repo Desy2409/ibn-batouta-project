@@ -4,8 +4,8 @@
     <div class="container" data-aos="fade-up">
 
         <div class="section-header">
-            <h3>POUR NOUS CONTACTER (en anglais)</h3>
-            <p>En dehors de notre support en ligne qui traite vos préoccupations, vous pouvez nous joindre ici ou par ces canaux : </p>
+            <h3>TO CONTACT US</h3>
+            <p>Apart from our online support that addresses your concerns, you can reach us here or through these channels: </p>
         </div>
 
         <div class="row contact-info">
@@ -23,7 +23,7 @@
                 <div class="contact-phone">
                     <i class="bi bi-phone"></i>
                     <h3>Phone Number</h3>
-                    <p><a href="tel:+155895548855">+1 5589 55488 55</a></p>
+                    <p><p><a href="tel:+22962671001">+229 |9694 1349 - 6267 1001</a></p></p>
                 </div>
             </div>
 
@@ -31,7 +31,7 @@
                 <div class="contact-email">
                     <i class="bi bi-envelope"></i>
                     <h3>Email</h3>
-                    <p><a href="mailto:info@example.com">info@example.com</a></p>
+                    <p><a href="mailto:iaib@ibnbatouta-edu.net">iaib@ibnbatouta-edu.net</a></p>
                 </div>
             </div>
 

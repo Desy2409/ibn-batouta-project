@@ -13,7 +13,7 @@
             <div class="col-md-4">
                 <div class="contact-address">
                     <i class="bi bi-geo-alt"></i>
-                    <h3>Address</h3>
+                    <h3>Adresse</h3>
                     {{-- <address>A108 Adam Street, NY 535022, USA</address> --}}
                     <address>{{ $about->geographic_location }}</address>
                 </div>
@@ -22,7 +22,7 @@
             <div class="col-md-4">
                 <div class="contact-phone">
                     <i class="bi bi-phone"></i>
-                    <h3>Phone Number</h3>
+                    <h3>N° Téléphone</h3>
                     <p><p><a href="tel:+22962671001">+229 |9694 1349 - 6267 1001</a></p></p>
                 </div>
             </div>
@@ -41,14 +41,14 @@
             <form action="forms/contact.php" method="post" role="form" class="php-email-form">
                 <div class="row">
                     <div class="form-group col-md-6">
-                        <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                        <input type="text" name="name" class="form-control" id="name" placeholder="Votre Nom" required>
                     </div>
                     <div class="form-group col-md-6">
-                        <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                        <input type="email" class="form-control" name="email" id="email" placeholder="Votre Email" required>
                     </div>
                 </div>
                 <div class="form-group">
-                    <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+                    <input type="text" class="form-control" name="subject" id="subject" placeholder="Sujet" required>
                 </div>
                 <div class="form-group">
                     <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
@@ -58,7 +58,7 @@
                     <div class="error-message"></div>
                     <div class="sent-message">Your message has been sent. Thank you!</div>
                 </div>
-                <div class="text-center"><button type="submit">Send Message</button></div>
+                <div class="text-center"><button type="submit">Envoyer Le Message</button></div>
             </form>
         </div>
 

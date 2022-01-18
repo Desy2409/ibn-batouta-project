@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>IBN BATOUTA | @yield('page-title')</title>
+    <title>Institut Africain IBN BATOUTA | IAIB - @yield('page-title')</title>
     <meta content="" name="description">
     <meta content="" name="keywords">
 
@@ -51,9 +51,9 @@
                     <div class="carousel-item active" style="background-image: url(assets/showcase/img/hero-carousel/1.jpg)">
                         <div class="carousel-container">
                             <div class="container">
-                                <h2 class="animate__animated animate__fadeInDown">We are professional</h2>
-                                <p class="animate__animated animate__fadeInUp">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                                <a href="#featured-services" class="btn-get-started scrollto animate__animated animate__fadeInUp">Get Started</a>
+                                <h2 class="animate__animated animate__fadeInDown">All together against COVID-19</h2>
+                                <p class="animate__animated animate__fadeInUp">In recent years, all of humanity has been facing its greatest health crisis in history linked to SARS-Cov2. Like other countries, the Government of Benin has taken measures to which we all subscribe to stem the scourge while ensuring educational continuity.</p>
+                                {{-- <a href="#featured-services" class="btn-get-started scrollto animate__animated animate__fadeInUp">Get Started</a> --}}
                             </div>
                         </div>
                     </div>
@@ -61,9 +61,9 @@
                     <div class="carousel-item" style="background-image: url(assets/showcase/img/hero-carousel/2.jpg)">
                         <div class="carousel-container">
                             <div class="container">
-                                <h2 class="animate__animated animate__fadeInDown">At vero eos et accusamus</h2>
-                                <p class="animate__animated animate__fadeInUp">Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut.</p>
-                                <a href="#featured-services" class="btn-get-started scrollto animate__animated animate__fadeInUp">Get Started</a>
+                                <h2 class="animate__animated animate__fadeInDown">Our results at the national license exam</h2>
+                                <p class="animate__animated animate__fadeInUp">The IBN BATOUTA African Institute, the first Arabic-speaking establishment of higher education and scientific research and professional training, presented for the first time in the history of Benin its students (33) to the national examinations of Professional License September session 2021. Admission rate: 100%...</p>
+                                {{-- <a href="#featured-services" class="btn-get-started scrollto animate__animated animate__fadeInUp">Get Started</a> --}}
                             </div>
                         </div>
                     </div>
@@ -71,9 +71,9 @@
                     <div class="carousel-item" style="background-image: url(assets/showcase/img/hero-carousel/3.jpg)">
                         <div class="carousel-container">
                             <div class="container">
-                                <h2 class="animate__animated animate__fadeInDown">Temporibus autem quibusdam</h2>
-                                <p class="animate__animated animate__fadeInUp">Beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt omnis iste natus error sit voluptatem accusantium.</p>
-                                <a href="#featured-services" class="btn-get-started scrollto animate__animated animate__fadeInUp">Get Started</a>
+                                <h2 class="animate__animated animate__fadeInDown">Our training courses</h2>
+                                <p class="animate__animated animate__fadeInUp">We are preparing for the license and soon for the Master in [1] letters and literature, [2] technical training in the science of education and [3] Islamic studies. Three teaching languages are authorized: French, English and Arabic. At the same time, we offer a course for the International Baccalaureate, upgrading programs...and Koranic activities.</p>
+                                {{-- <a href="#featured-services" class="btn-get-started scrollto animate__animated animate__fadeInUp">Get Started</a> --}}
                             </div>
                         </div>
                     </div>
@@ -81,9 +81,9 @@
                     <div class="carousel-item" style="background-image: url(assets/showcase/img/hero-carousel/4.jpg)">
                         <div class="carousel-container">
                             <div class="container">
-                                <h2 class="animate__animated animate__fadeInDown">Nam libero tempore</h2>
-                                <p class="animate__animated animate__fadeInUp">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum.</p>
-                                <a href="#featured-services" class="btn-get-started scrollto animate__animated animate__fadeInUp">Get Started</a>
+                                <h2 class="animate__animated animate__fadeInDown">What's new for the 2021-2022 school year</h2>
+                                <p class="animate__animated animate__fadeInUp">As part of the academic or educational activities for the new year 2021-2022, apart from our usual courses, we are placing particular emphasis on strengthening distance learning courses with tutored courses from our distance learning platform http:// elearning.ibnbatouta-edu.net accessible for phones and laptops. The app is also available for Android and iOS.</p>
+                                {{-- <a href="#featured-services" class="btn-get-started scrollto animate__animated animate__fadeInUp">Get Started</a> --}}
                             </div>
                         </div>
                     </div>
@@ -91,9 +91,9 @@
                     <div class="carousel-item" style="background-image: url(assets/showcase/img/hero-carousel/5.jpg)">
                         <div class="carousel-container">
                             <div class="container">
-                                <h2 class="animate__animated animate__fadeInDown">Magnam aliquam quaerat</h2>
-                                <p class="animate__animated animate__fadeInUp">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                                <a href="#featured-services" class="btn-get-started scrollto animate__animated animate__fadeInUp">Get Started</a>
+                                <h2 class="animate__animated animate__fadeInDown">World Arabic Language Day</h2>
+                                <p class="animate__animated animate__fadeInUp">On the occasion of the World Day of the Arabic Language celebrated every December 18, 2021, the African Institute IBN BATOUTA wishes to associate the learning of the Arabic language with art and pleasure through the involvement of students in the preparation of exhibitions, presentations and shows around the classical and modern Arabic language.</p>
+                                {{-- <a href="#featured-services" class="btn-get-started scrollto animate__animated animate__fadeInUp">Get Started</a> --}}
                             </div>
                         </div>
                     </div>
@@ -121,20 +121,20 @@
 
                     <div class="col-lg-4 box">
                         <i class="bi bi-briefcase"></i>
-                        <h4 class="title"><a href="">Lorem Ipsum Delino</a></h4>
-                        <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+                        <h4 class="title"><a href="">Training catalog</a></h4>
+                        <p class="description">Apart from our Bachelor's, Master's and Doctorate training courses (coming soon), we offer several other à la carte training courses.</p>
                     </div>
 
                     <div class="col-lg-4 box box-bg">
                         <i class="bi bi-card-checklist"></i>
-                        <h4 class="title"><a href="">Dolor Sitema</a></h4>
-                        <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
+                        <h4 class="title"><a href="">Honoring our commitments</a></h4>
+                        <p class="description">Without discontinuities, our learners, supervised by a team of professionals, complete their course within the contractually agreed time frame.</p>
                     </div>
 
                     <div class="col-lg-4 box">
                         <i class="bi bi-binoculars"></i>
-                        <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
-                        <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+                        <h4 class="title"><a href="">Arabic language love</a></h4>
+                        <p class="description">How not to love this wonderful Arabic language that has given us everything. That's why we dedicate activities to him at home...</p>
                     </div>
 
                 </div>
@@ -144,17 +144,6 @@
         @include('showcase.components.sections.about_us_en')
         @include('showcase.components.sections.opportunities_en')
         {{-- @include('showcase.components.sections.portfolio') --}}
-
-
-        <!-- ======= Call To Action Section ======= -->
-        <section id="call-to-action">
-            <div class="container text-center" data-aos="zoom-in">
-                <h3>Call To Action</h3>
-                <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <a class="cta-btn" href="#">Call To Action</a>
-            </div>
-        </section><!-- End Call To Action Section -->
-
 
         @include('showcase.components.sections.training_en')
         @include('showcase.components.sections.teams_en')

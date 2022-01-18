@@ -2,15 +2,15 @@
 <section id="team">
     <div class="container" data-aos="fade-up">
         <div class="section-header">
-            <h3>Team Arabic</h3>
-            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+            <h3>فريقنا</h3>
+            <p>منذ بداية دروسنا ، عمل فريق شاب وديناميكي وخبير للغاية لتلبية احتياجاتك وتوقعاتك.</p>
         </div>
 
         <div class="row">
 
             <div class="col-lg-3 col-md-6">
                 <div class="member" data-aos="fade-up" data-aos-delay="100">
-                    <img src="assets/img/team-1.jpg" class="img-fluid" alt="">
+                    <img src="{{ asset('assets/showcase/img/team-1.jpg') }}" class="img-fluid" alt="">
                     <div class="member-info">
                         <div class="member-info-content">
                             <h4>Walter White</h4>
@@ -28,7 +28,7 @@
 
             <div class="col-lg-3 col-md-6">
                 <div class="member" data-aos="fade-up" data-aos-delay="200">
-                    <img src="assets/img/team-2.jpg" class="img-fluid" alt="">
+                    <img src="{{ asset('assets/showcase/img/team-2.jpg') }}" class="img-fluid" alt="">
                     <div class="member-info">
                         <div class="member-info-content">
                             <h4>Sarah Jhonson</h4>
@@ -46,7 +46,7 @@
 
             <div class="col-lg-3 col-md-6">
                 <div class="member" data-aos="fade-up" data-aos-delay="300">
-                    <img src="assets/img/team-3.jpg" class="img-fluid" alt="">
+                    <img src="{{ asset('assets/showcase/img/team-3.jpg') }}" class="img-fluid" alt="">
                     <div class="member-info">
                         <div class="member-info-content">
                             <h4>William Anderson</h4>
@@ -64,7 +64,7 @@
 
             <div class="col-lg-3 col-md-6">
                 <div class="member" data-aos="fade-up" data-aos-delay="400">
-                    <img src="assets/img/team-4.jpg" class="img-fluid" alt="">
+                    <img src="{{ asset('assets/showcase/img/team-4.jpg') }}" class="img-fluid" alt="">
                     <div class="member-info">
                         <div class="member-info-content">
                             <h4>Amanda Jepson</h4>

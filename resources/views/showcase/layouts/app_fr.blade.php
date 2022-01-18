@@ -54,7 +54,7 @@
                             <div class="container">
                                 <h2>Tous ensemble contre le COVID-19</h2>
                                 <p>Depuis quelques années, l’humanité toute entière est confrontée à sa plus grande crise sanitaire de l’histoire liée à la SARS-Cov2. A l’instar des autres pays, le Gouvernement du Bénin a pris des mesures auxquelles toutes nous souscrivons pour endiguer le fléau tout en assurant la continuité pédagogique.</p>
-                                <a href="#featured-services" class="btn-get-started scrollto">Démarrer</a>
+                                {{-- <a href="#featured-services" class="btn-get-started scrollto">Démarrer</a> --}}
                                 {{-- <a href="#featured-services" class="btn-get-started scrollto animate__animated animate__fadeInUp">Get Started</a> --}}
                             </div>
                         </div>
@@ -64,8 +64,8 @@
                         <div class="carousel-container">
                             <div class="container">
                                 <h2>Nos résultats à l'examen national de Licence</h2>
-                                <p>L’Institut Africain IBN BATOUTA, premier établissement arabophone d'enseignement supérieur et de la recherche scientifique et des formations professionnelles, a présenté pour la première fois dans l'histoire du Bénin ses étudiants (33) aux examens nationaux de Licence Professionnelle session de Septembre 2021. Taux d’admission : 100%..</p>
-                                <a href="#featured-services" class="btn-get-started scrollto">Démarrer</a>
+                                <p>L’Institut Africain IBN BATOUTA, premier établissement arabophone d'enseignement supérieur et de la recherche scientifique et des formations professionnelles, a présenté pour la première fois dans l'histoire du Bénin ses étudiants (33) aux examens nationaux de Licence Professionnelle session de Septembre 2021. Taux d’admission : 100%...</p>
+                                {{-- <a href="#featured-services" class="btn-get-started scrollto">Démarrer</a> --}}
                                 {{-- <a href="#featured-services" class="btn-get-started scrollto animate__animated animate__fadeInUp">Get Started</a> --}}
                             </div>
                         </div>
@@ -76,7 +76,7 @@
                             <div class="container">
                                 <h2>Nos filières de formation</h2>
                                 <p>Nous préparons pour la licence et bientôt pour le Master en [1] lettres et littérature, [2] formations techniques en science de l'éducation et [3] les études islamiques. Trois langues d'enseignement sont autorisées : le français, l'anglais et l'arabe. Parallèlement, nous proposons un parcours pour le Bac international, des programmes de mise à niveau...et des activités coraniques.</p>
-                                <a href="#featured-services" class="btn-get-started scrollto">Démarrer</a>
+                                {{-- <a href="#featured-services" class="btn-get-started scrollto">Démarrer</a> --}}
                                 {{-- <a href="#featured-services" class="btn-get-started scrollto animate__animated animate__fadeInUp">Get Started</a> --}}
                             </div>
                         </div>
@@ -87,7 +87,7 @@
                             <div class="container">
                                 <h2>Les nouveautés de la rentrée 2021-2022</h2>
                                 <p>Au titre des activités académiques ou pédagogiques de la nouvelle année 2021-2022, en dehors de nos parcours habituelles nous mettons un accent particulier sur le renforcement des cours à distance avec des parcours tutorés à partir de notre plateforme de cours à distance http://elearning.ibnbatouta-edu.net accessible pour les téléphones et ordinateurs portables. L'appli est aussi disponible pour Android et iOS.</p>
-                                <a href="#featured-services" class="btn-get-started scrollto">Démarrer</a>
+                                {{-- <a href="#featured-services" class="btn-get-started scrollto">Démarrer</a> --}}
                                 {{-- <a href="#featured-services" class="btn-get-started scrollto animate__animated animate__fadeInUp">Get Started</a> --}}
                             </div>
                         </div>
@@ -99,7 +99,7 @@
                                 <h2>Journée Mondiale de la langue Arabe</h2>
                                 <p>A l’occasion de la Journée Mondiale de la Langue Arabe célébrée chaque 18 Décembre 2021, l’Institut Africain IBN BATOUTA souhaite ainsi associer l’apprentissage de la langue arabe à l’art et au plaisir à travers l’implication
                                     des étudiants dans la préparation d’expositions, de présentations et de spectacles autour de la langue arabe classique et moderne.</p>
-                                <a href="#featured-services" class="btn-get-started scrollto">Démarrer</a>
+                                {{-- <a href="#featured-services" class="btn-get-started scrollto">Démarrer</a> --}}
                                 {{-- <a href="#featured-services" class="btn-get-started scrollto animate__animated animate__fadeInUp">Get Started</a> --}}
                             </div>
                         </div>

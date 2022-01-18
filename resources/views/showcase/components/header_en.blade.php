@@ -10,13 +10,13 @@
 
                   <nav id="navbar" class="navbar">
                       <ul>
-                          <li><a class="nav-link scrollto active" href="#hero">Accueil</a></li>
+                          <li><a class="nav-link scrollto active" href="#hero">HOMEPAGE</a></li>
                           <li><a class="nav-link scrollto" href="#about">IAIB</a></li>
-                          <li><a class="nav-link scrollto" href="#services">OPPORTUNITES</a></li>
-                          <li><a class="nav-link scrollto " href="#portfolio">Formations</a></li>
-                          <li><a class="nav-link scrollto" href="#team">Equipe</a></li>
+                          <li><a class="nav-link scrollto" href="#services">OPPORTUNITIES</a></li>
+                          <li><a class="nav-link scrollto " href="#portfolio">TRAINING</a></li>
+                          <li><a class="nav-link scrollto" href="#team">TEAM</a></li>
                           {{-- <li><a class="nav-link  " href="blog.html">Presse</a></li> --}}
-                          <li class="dropdown"><a href="#"><span>Presse</span> <i class="bi bi-chevron-down"></i></a>
+                          <li class="dropdown"><a href="#"><span>PRESS</span> <i class="bi bi-chevron-down"></i></a>
                               <ul>
                                   <li><a href="#">Drop Down 1</a></li>
                                   <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
@@ -33,12 +33,12 @@
                                   <li><a href="#">Drop Down 4</a></li>
                               </ul>
                           </li>
-                          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-                          <li class="dropdown"><a href="{{ route('english') }}"><span>Anglais</span> <i class="bi bi-chevron-down"></i></a>
+                          <li><a class="nav-link scrollto" href="#contact">CONTACT</a></li>
+                          <li class="dropdown"><a href="{{ route('english') }}"><span>English</span> <i class="bi bi-chevron-down"></i></a>
                             <ul>
-                                <li><a href="{{ route('french') }}">Français</a></li>
+                                <li><a href="{{ route('french') }}">French</a></li>
                                 {{-- <li><a href="{{ route('english') }}">Anglais</a></li> --}}
-                                <li><a href="{{ route('arabic') }}">Arabe</a></li>
+                                <li><a href="{{ route('arabic') }}">Arab</a></li>
                             </ul>
                         </li>
                       </ul>
