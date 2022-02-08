@@ -5,16 +5,16 @@
         <div class="container">
 
             <header class="section-header">
-                <h3 class="section-title">دوراتنا التدريبية</h3>
+                <h3 class="section-title arabic_align">دوراتنا التدريبية</h3>
             </header>
 
             <div class="row">
                 <div class="col-lg-12">
                     <ul id="portfolio-flters">
-                        <li data-filter="*" class="filter-active">الجميع</li>
-                        <li data-filter=".filter-app">أدب و أدب عربي</li>
-                        <li data-filter=".filter-card">العلوم التربوية</li>
-                        <li data-filter=".filter-web">الدراسات الإسلامية</li>
+                        <li data-filter="*" class="filter-active arabic_align">الجميع</li>
+                        <li data-filter=".filter-app" class="arabic_align">أدب و أدب عربي</li>
+                        <li data-filter=".filter-card" class="arabic_align">العلوم التربوية</li>
+                        <li data-filter=".filter-web" class="arabic_align">الدراسات الإسلامية</li>
                     </ul>
                 </div>
             </div>
@@ -30,8 +30,8 @@
                         </figure>
 
                         <div class="portfolio-info">
-                            <h4><a href="#">اللغة العربية</a></h4>
-                            <p>أدب و أدب عربي</p>
+                            <h4 class="arabic_align"><a href="#">اللغة العربية</a></h4>
+                            <p class="arabic_align">أدب و أدب عربي</p>
                         </div>
                     </div>
                 </div>
@@ -45,8 +45,8 @@
                         </figure>
 
                         <div class="portfolio-info">
-                            <h4><a href="#">علوم قرآنية</a></h4>
-                            <p>الدراسات الإسلامية</p>
+                            <h4 class="arabic_align"><a href="#">علوم قرآنية</a></h4>
+                            <p class="arabic_align">الدراسات الإسلامية</p>
                         </div>
                     </div>
                 </div>
@@ -60,8 +60,8 @@
                         </figure>
 
                         <div class="portfolio-info">
-                            <h4><a href="#">الأدب العربي والأفريقي</a></h4>
-                            <p>أدب و أدب عربي</p>
+                            <h4 class="arabic_align"><a href="#">الأدب العربي والأفريقي</a></h4>
+                            <p class="arabic_align">أدب و أدب عربي</p>
                         </div>
                     </div>
                 </div>
@@ -75,8 +75,8 @@
                         </figure>
 
                         <div class="portfolio-info">
-                            <h4><a href="#">السياحة والترفيه</a></h4>
-                            <p>العلوم التربوية</p>
+                            <h4 class="arabic_align"><a href="#">السياحة والترفيه</a></h4>
+                            <p class="arabic_align">العلوم التربوية</p>
                         </div>
                     </div>
                 </div>
@@ -90,8 +90,8 @@
                         </figure>
 
                         <div class="portfolio-info">
-                            <h4><a href="#">العقائد والأفكار الإسلامية</a></h4>
-                            <p>الدراسات الإسلامية</p>
+                            <h4 class="arabic_align"><a href="#">العقائد والأفكار الإسلامية</a></h4>
+                            <p class="arabic_align">الدراسات الإسلامية</p>
                         </div>
                     </div>
                 </div>
@@ -105,8 +105,8 @@
                         </figure>
 
                         <div class="portfolio-info">
-                            <h4><a href="#">الترجمة التحريرية والشفوية</a></h4>
-                            <p>أدب و أدب عربي</p>
+                            <h4 class="arabic_align"><a href="#">الترجمة التحريرية والشفوية</a></h4>
+                            <p class="arabic_align">أدب و أدب عربي</p>
                         </div>
                     </div>
                 </div>
@@ -120,8 +120,8 @@
                         </figure>
 
                         <div class="portfolio-info">
-                            <h4><a href="#">التربية والتعليم</a></h4>
-                            <p>العلوم التربوية</p>
+                            <h4 class="arabic_align"><a href="#">التربية والتعليم</a></h4>
+                            <p class="arabic_align">العلوم التربوية</p>
                         </div>
                     </div>
                 </div>
@@ -135,8 +135,8 @@
                         </figure>
 
                         <div class="portfolio-info">
-                            <h4><a href="#">الاتصال والصحافة</a></h4>
-                            <p>العلوم التربوية</p>
+                            <h4 class="arabic_align"><a href="#">الاتصال والصحافة</a></h4>
+                            <p class="arabic_align">العلوم التربوية</p>
                         </div>
                     </div>
                 </div>
@@ -150,8 +150,8 @@
                         </figure>
 
                         <div class="portfolio-info">
-                            <h4><a href="#">التمويل الإسلامي</a></h4>
-                            <p>الدراسات الإسلامية</p>
+                            <h4 class="arabic_align"><a href="#">التمويل الإسلامي</a></h4>
+                            <p class="arabic_align">الدراسات الإسلامية</p>
                         </div>
                     </div>
                 </div>

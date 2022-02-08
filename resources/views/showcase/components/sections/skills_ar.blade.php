@@ -10,25 +10,25 @@
 
             <div class="progress">
                 <div class="progress-bar bg-success" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-                    <span class="skill">اللغات والآداب العربية [تم قبول 13 مرشحًا من أصل 13]<i class="val">100٪</i></span>
+                    <span class="skill arabic_align"><i class="val" style="text-align: left;">100٪</i>اللغات والآداب العربية [تم قبول 13 مرشحًا من أصل 13]</span>
                 </div>
             </div>
 
             <div class="progress">
                 <div class="progress-bar bg-info" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-                    <span class="skill">الدراسات الإسلامية [قبول 20 مرشحًا من أصل 20]<i class="val">100٪</i></span>
+                    <span class="skill arabic_align"><i class="val" style="text-align: left;">100٪</i>الدراسات الإسلامية [قبول 20 مرشحًا من أصل 20]</span>
                 </div>
             </div>
 
             <div class="progress">
                 <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-                    <span class="skill">ترجمة فورية إلى اللغة العربية [01 مرشح تم قبوله من أصل 01]<i class="val">100٪</i></span>
+                    <span class="skill arabic_align"><i class="val" style="text-align: left;">100٪</i>ترجمة فورية إلى اللغة العربية [01 مرشح تم قبوله من أصل 01]</span>
                 </div>
             </div>
 
             <div class="progress">
                 <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="100" aria-valuemin="100" aria-valuemax="100">
-                    <span class="skill">إجمالي IAIB [34 متقدمًا تم قبولهم من أصل 34]<i class="val">100٪</i></span>
+                    <span class="skill arabic_align"><i class="val" style="text-align: left;">100٪</i>إجمالي IAIB [34 متقدمًا تم قبولهم من أصل 34]</span>
                 </div>
             </div>
 

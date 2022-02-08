@@ -35,6 +35,12 @@
   ======================================================== -->
 </head>
 
+<style>
+    .arabic_align{
+        text-align: right
+    }
+</style>
+
 <body>
 
     @include('showcase.components.header_ar')
@@ -51,8 +57,8 @@
                     <div class="carousel-item active" style="background-image: url(assets/showcase/img/hero-carousel/1.jpg)">
                         <div class="carousel-container">
                             <div class="container">
-                                <h2 class="animate__animated animate__fadeInDown">جميعًا معًا ضد COVID-19</h2>
-                                <p class="animate__animated animate__fadeInUp">في السنوات الأخيرة ، واجهت البشرية جمعاء أكبر أزمة صحية في التاريخ مرتبطة بـ SARS-Cov2. اتخذت حكومة بنن ، مثل البلدان الأخرى ، تدابير نؤيدها جميعا للقضاء على هذه الآفة مع ضمان الاستمرارية التعليمية.</p>
+                                <h2 class="animate__animated animate__fadeInDown arabic_align arabic_align">جميعًا معًا ضد COVID-19</h2>
+                                <p class="animate__animated animate__fadeInUp arabic_align arabic_align" style="">في السنوات الأخيرة ، واجهت البشرية جمعاء أكبر أزمة صحية في التاريخ مرتبطة بـ SARS-Cov2. اتخذت حكومة بنن ، مثل البلدان الأخرى ، تدابير نؤيدها جميعا للقضاء على هذه الآفة مع ضمان الاستمرارية التعليمية.</p>
                                 {{-- <a href="#featured-services" class="btn-get-started scrollto animate__animated animate__fadeInUp">Get Started</a> --}}
                             </div>
                         </div>
@@ -61,8 +67,8 @@
                     <div class="carousel-item" style="background-image: url(assets/showcase/img/hero-carousel/2.jpg)">
                         <div class="carousel-container">
                             <div class="container">
-                                <h2 class="animate__animated animate__fadeInDown">نتائجنا في امتحان الترخيص الوطني</h2>
-                                <p class="animate__animated animate__fadeInUp">معهد ابن بطوطة الأفريقي ، أول مؤسسة ناطقة باللغة العربية للتعليم العالي والبحث العلمي والتدريب المهني ، قدم لأول مرة في تاريخ بنين طلابه (33) إلى الامتحانات الوطنية للرخصة المهنية جلسة سبتمبر 2021. معدل القبول : 100٪ ...</p>
+                                <h2 class="animate__animated animate__fadeInDown arabic_align">نتائجنا في امتحان الترخيص الوطني</h2>
+                                <p class="animate__animated animate__fadeInUp arabic_align">معهد ابن بطوطة الأفريقي ، أول مؤسسة ناطقة باللغة العربية للتعليم العالي والبحث العلمي والتدريب المهني ، قدم لأول مرة في تاريخ بنين طلابه (33) إلى الامتحانات الوطنية للرخصة المهنية جلسة سبتمبر 2021. معدل القبول : 100٪ ...</p>
                                 {{-- <a href="#featured-services" class="btn-get-started scrollto animate__animated animate__fadeInUp">Get Started</a> --}}
                             </div>
                         </div>
@@ -71,8 +77,8 @@
                     <div class="carousel-item" style="background-image: url(assets/showcase/img/hero-carousel/3.jpg)">
                         <div class="carousel-container">
                             <div class="container">
-                                <h2 class="animate__animated animate__fadeInDown">دوراتنا التدريبية</h2>
-                                <p class="animate__animated animate__fadeInUp">نحن نستعد للحصول على الترخيص وقريبًا للحصول على درجة الماجستير في [1] الآداب والأدب ، [2] التدريب الفني في علوم التربية و [3] الدراسات الإسلامية. يُسمح بثلاث لغات للتدريس: الفرنسية والإنجليزية والعربية. وفي نفس الوقت نقدم دورة للبكالوريا الدولية وترقية البرامج ... والأنشطة القرآنية.</p>
+                                <h2 class="animate__animated animate__fadeInDown arabic_align">دوراتنا التدريبية</h2>
+                                <p class="animate__animated animate__fadeInUp arabic_align">نحن نستعد للحصول على الترخيص وقريبًا للحصول على درجة الماجستير في [1] الآداب والأدب ، [2] التدريب الفني في علوم التربية و [3] الدراسات الإسلامية. يُسمح بثلاث لغات للتدريس: الفرنسية والإنجليزية والعربية. وفي نفس الوقت نقدم دورة للبكالوريا الدولية وترقية البرامج ... والأنشطة القرآنية.</p>
                                 {{-- <a href="#featured-services" class="btn-get-started scrollto animate__animated animate__fadeInUp">Get Started</a> --}}
                             </div>
                         </div>
@@ -81,8 +87,8 @@
                     <div class="carousel-item" style="background-image: url(assets/showcase/img/hero-carousel/4.jpg)">
                         <div class="carousel-container">
                             <div class="container">
-                                <h2 class="animate__animated animate__fadeInDown">ما الجديد للعام الدراسي 2021-2022</h2>
-                                <p class="animate__animated animate__fadeInUp">كجزء من الأنشطة الأكاديمية أو التعليمية للعام الجديد 2021-2022 ، بصرف النظر عن دوراتنا المعتادة ، فإننا نركز بشكل خاص على تعزيز دورات التعلم عن بعد من خلال الدورات المدروسة من منصة التعلم عن بعد الخاصة بنا http: // elearning.ibnbatouta-edu. شبكة متاحة للهواتف وأجهزة الكمبيوتر المحمولة. التطبيق متاح أيضًا لنظامي التشغيل Android و iOS.</p>
+                                <h2 class="animate__animated animate__fadeInDown arabic_align">ما الجديد للعام الدراسي 2021-2022</h2>
+                                <p class="animate__animated animate__fadeInUp arabic_align">كجزء من الأنشطة الأكاديمية أو التعليمية للعام الجديد 2021-2022 ، بصرف النظر عن دوراتنا المعتادة ، فإننا نركز بشكل خاص على تعزيز دورات التعلم عن بعد من خلال الدورات المدروسة من منصة التعلم عن بعد الخاصة بنا http: // elearning.ibnbatouta-edu. شبكة متاحة للهواتف وأجهزة الكمبيوتر المحمولة. التطبيق متاح أيضًا لنظامي التشغيل Android و iOS.</p>
                                 {{-- <a href="#featured-services" class="btn-get-started scrollto animate__animated animate__fadeInUp">Get Started</a> --}}
                             </div>
                         </div>
@@ -91,8 +97,8 @@
                     <div class="carousel-item" style="background-image: url(assets/showcase/img/hero-carousel/5.jpg)">
                         <div class="carousel-container">
                             <div class="container">
-                                <h2 class="animate__animated animate__fadeInDown">اليوم العالمي للغة العربية</h2>
-                                <p class="animate__animated animate__fadeInUp">بمناسبة اليوم العالمي للغة العربية الذي يتم الاحتفال به في 18 ديسمبر 2021 ، يرغب معهد ابن بطوطة الأفريقي في ربط تعلم اللغة العربية بالفن والمتعة من خلال المشاركة
+                                <h2 class="animate__animated animate__fadeInDown arabic_align">اليوم العالمي للغة العربية</h2>
+                                <p class="animate__animated animate__fadeInUp arabic_align">بمناسبة اليوم العالمي للغة العربية الذي يتم الاحتفال به في 18 ديسمبر 2021 ، يرغب معهد ابن بطوطة الأفريقي في ربط تعلم اللغة العربية بالفن والمتعة من خلال المشاركة
                                     الطلاب في إعداد المعارض والعروض التقديمية والعروض حول اللغة العربية الفصحى والحديثة.</p>
                                 {{-- <a href="#featured-services" class="btn-get-started scrollto animate__animated animate__fadeInUp">Get Started</a> --}}
                             </div>
@@ -122,20 +128,20 @@
 
                     <div class="col-lg-4 box">
                         <i class="bi bi-briefcase"></i>
-                        <h4 class="title"><a href="">كتالوج التدريب</a></h4>
-                        <p class="description">بصرف النظر عن دورات البكالوريوس والماجستير والدكتوراه (قريبًا) ، نقدم العديد من الدورات التدريبية الانتقائية الأخرى.</p>
+                        <h4 class="title arabic_align"><a href="">كتالوج التدريب</a></h4>
+                        <p class="description arabic_align">بصرف النظر عن دورات البكالوريوس والماجستير والدكتوراه (قريبًا) ، نقدم العديد من الدورات التدريبية الانتقائية الأخرى.</p>
                     </div>
 
                     <div class="col-lg-4 box box-bg">
                         <i class="bi bi-card-checklist"></i>
-                        <h4 class="title"><a href="">احترام التزاماتنا</a></h4>
-                        <p class="description">بدون انقطاع ، يقوم المتعلمون لدينا ، تحت إشراف فريق من المحترفين ، بإكمال مسارهم الدراسي ضمن الإطار الزمني المتفق عليه تعاقديًا.</p>
+                        <h4 class="title arabic_align"><a href="">احترام التزاماتنا</a></h4>
+                        <p class="description arabic_align">بدون انقطاع ، يقوم المتعلمون لدينا ، تحت إشراف فريق من المحترفين ، بإكمال مسارهم الدراسي ضمن الإطار الزمني المتفق عليه تعاقديًا.</p>
                     </div>
 
                     <div class="col-lg-4 box">
                         <i class="bi bi-binoculars"></i>
-                        <h4 class="title"><a href="">حب اللغة العربية</a></h4>
-                        <p class="description">كيف لا نحب هذه اللغة العربية الرائعة التي أعطتنا كل شيء. لهذا نكرس له الأنشطة في المنزل ...</p>
+                        <h4 class="title arabic_align"><a href="">حب اللغة العربية</a></h4>
+                        <p class="description arabic_align">كيف لا نحب هذه اللغة العربية الرائعة التي أعطتنا كل شيء. لهذا نكرس له الأنشطة في المنزل ...</p>
                     </div>
 
                 </div>

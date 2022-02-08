@@ -23,7 +23,7 @@
                 </div>
 
                 <div class="col-lg-3 col-md-6 footer-contact">
-                    <h4>اتصل بنا</h4>
+                    <h4 class="arabic_align">اتصل بنا</h4>
                     <p>
                         Quartier AGBOKOU<br> Porto-Novo, Dépt. Ouémé<br> République du Bénin<br>
                         <strong>Infoline 1:</strong> +229 96941349<br>
@@ -42,8 +42,8 @@
                 </div>
 
                 <div class="col-lg-3 col-md-6 footer-newsletter">
-                    <h4>نشرتنا الإخبارية</h4>
-                    <p>لتلقي الكتالوج الخاص بنا بالدورات الجديدة مجانًا ، اشترك في النشرة الإخبارية.</p>
+                    <h4 class="arabic_align">نشرتنا الإخبارية</h4>
+                    <p class="arabic_align">لتلقي الكتالوج الخاص بنا بالدورات الجديدة مجانًا ، اشترك في النشرة الإخبارية.</p>
                     <form action="" method="post">
                         <input type="email" name="email"><input type="submit" value="Subscribe">
                     </form>
@@ -64,7 +64,7 @@
     Licensing information: https://bootstrapmade.com/license/
     Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=BizPage
   -->
-            Designed by <a href="https://bootstrapmade.com/">PoolDev</a>
+            Designed by <a href="https://i-campus.com/">PoolDev</a>
         </div>
     </div>
 </footer>
