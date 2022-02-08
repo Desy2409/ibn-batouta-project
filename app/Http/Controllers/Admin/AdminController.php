@@ -19,7 +19,30 @@ class AdminController extends Controller
         }
     }
 
-    public function contactNotification(){
+    public function contactNotification()
+    {
         return auth()->user()->unreadNotifications;
+    }
+
+    public function store(Request $request)
+    {
+        $this->validate($request, [
+            'email' => 'required|email',
+            'password' => 'required|min:8',
+            'last_name' => 'required',
+            'first_name' => 'required',
+            'phone_number1' => 'required',
+            'addresse' => 'max:255'
+        ], [
+            'last_name.required' => "Le champ nom est obligatoire.",
+            'last_name.required' => "Le nom est obligatoire.",
+            'first_name.required' => "Le champ prénom(s) est obligatoire.",
+            'phone_number1.required' => "Le champ N° Téléphone est obligatoire.",
+            'address.required' => "Le champ adresse ne doit pas dépasser 255 caractères .",
+        ]);
+    }
+
+    public function update()
+    {
     }
 }

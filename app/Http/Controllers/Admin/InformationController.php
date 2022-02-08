@@ -22,8 +22,8 @@ class InformationController extends Controller
     {
         $information = "Configuration information du site";
         $informationArabic = Information::where('informationable_type', '=', InformationArabic::class)->first();
-        $informationEnglish = Information::where('informationable_type', '=', InformationArabic::class)->first();
-        $informationFrench = Information::where('informationable_type', '=', InformationArabic::class)->first();
+        $informationEnglish = Information::where('informationable_type', '=', InformationEnglish::class)->first();
+        $informationFrench = Information::where('informationable_type', '=', InformationFrench::class)->first();
         return view('admin.pages.information', compact('information','informationArabic','informationEnglish','informationFrench'));
     }
 
@@ -48,14 +48,14 @@ class InformationController extends Controller
             if ($latestInformationArabic) {
                 $information = Information::where('informationable_type', '=', InformationArabic::class)->where('informationable_id', '=', $latestInformationArabic->id)->first();
                 
-                $information->information = $request->information_ar;
+                $information->site_information = $request->site_information_ar;
                 $information->save();
             } else {
                 $informationArabic = new InformationArabic();
                 $informationArabic->save();
 
                 $information = new Information();
-                $information->information = $request->information_ar;
+                $information->site_information = $request->site_information_ar;
                 $information->informationable_id = $informationArabic->id;
                 $information->informationable_type = InformationArabic::class;
                 $information->save();
@@ -64,14 +64,14 @@ class InformationController extends Controller
             if ($latestInformationEnglish) {
                 $information = Information::where('informationable_type', '=', InformationEnglish::class)->where('informationable_id', '=', $latestInformationEnglish->id)->first();
                 
-                $information->information = $request->information_ar;
+                $information->site_information = $request->site_information_en;
                 $information->save();
             } else {
                 $informationEnglish = new InformationEnglish();
                 $informationEnglish->save();
 
                 $information = new Information();
-                $information->information = $request->information_en;
+                $information->site_information = $request->site_information_en;
                 $information->informationable_id = $informationEnglish->id;
                 $information->informationable_type = InformationEnglish::class;
                 $information->save();
@@ -80,14 +80,14 @@ class InformationController extends Controller
             if ($latestInformationFrench) {
                 $information = Information::where('informationable_type', '=', InformationFrench::class)->where('informationable_id', '=', $latestInformationFrench->id)->first();
                 
-                $information->information = $request->information_ar;
+                $information->site_information = $request->site_information_fr;
                 $information->save();
             } else {
                 $informationFrench = new InformationFrench();
                 $informationFrench->save();
 
                 $information = new Information();
-                $information->information = $request->information_fr;
+                $information->site_information = $request->site_information_fr;
                 $information->informationable_id = $informationFrench->id;
                 $information->informationable_type = InformationFrench::class;
                 $information->save();

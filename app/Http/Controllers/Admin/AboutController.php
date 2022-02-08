@@ -16,6 +16,7 @@ class AboutController extends Controller
     public function __construct()
     {
         // $this->middleware(['auth:admin','verified']);
+        $this->middleware(['auth:admin']);
     }
 
     public function index()
@@ -53,12 +54,14 @@ class AboutController extends Controller
                 $about->currency = $request->currency_ar;
                 $about->geographic_location = $request->geographic_location_ar;
                 $about->email = $request->email_ar;
-                $about->web_site = $request->web_site_ar;
-                $about->phone_number = $request->phone_number_ar;
+                $about->web_site = $request->web_site;
+                $about->phone_number = $request->phone_number;
                 $about->bp = $request->bp_ar;
                 $about->legal_situation = $request->legal_situation_ar;
                 $about->stopped = $request->stopped_ar;
                 $about->identity = $request->identity_ar;
+                $about->mission = $request->mission_ar;
+                $about->plan = $request->plan_ar;
                 $about->vision = $request->vision_ar;
                 $about->message = $request->message_ar;
                 $about->value = $request->value_ar;
@@ -72,13 +75,15 @@ class AboutController extends Controller
                 $about->name = $request->name_ar;
                 $about->currency = $request->currency_ar;
                 $about->geographic_location = $request->geographic_location_ar;
-                $about->email = $request->email_ar;
-                $about->web_site = $request->web_site_ar;
+                $about->email = $request->email;
+                $about->web_site = $request->web_site;
                 $about->phone_number = $request->phone_number_ar;
                 $about->bp = $request->bp_ar;
                 $about->legal_situation = $request->legal_situation_ar;
                 $about->stopped = $request->stopped_ar;
                 $about->identity = $request->identity_ar;
+                $about->mission = $request->mission_ar;
+                $about->plan = $request->plan_ar;
                 $about->vision = $request->vision_ar;
                 $about->message = $request->message_ar;
                 $about->value = $request->value_ar;
@@ -94,13 +99,15 @@ class AboutController extends Controller
                 $about->name = $request->name_en;
                 $about->currency = $request->currency_en;
                 $about->geographic_location = $request->geographic_location_en;
-                $about->email = $request->email_en;
-                $about->web_site = $request->web_site_en;
+                $about->email = $request->email;
+                $about->web_site = $request->web_site;
                 $about->phone_number = $request->phone_number_en;
                 $about->bp = $request->bp_en;
                 $about->legal_situation = $request->legal_situation_en;
                 $about->stopped = $request->stopped_en;
                 $about->identity = $request->identity_en;
+                $about->mission = $request->mission_en;
+                $about->plan = $request->plan_en;
                 $about->vision = $request->vision_en;
                 $about->message = $request->message_en;
                 $about->value = $request->value_en;
@@ -114,13 +121,15 @@ class AboutController extends Controller
                 $about->name = $request->name_en;
                 $about->currency = $request->currency_en;
                 $about->geographic_location = $request->geographic_location_en;
-                $about->email = $request->email_en;
-                $about->web_site = $request->web_site_en;
+                $about->email = $request->email;
+                $about->web_site = $request->web_site;
                 $about->phone_number = $request->phone_number_en;
                 $about->bp = $request->bp_en;
                 $about->legal_situation = $request->legal_situation_en;
                 $about->stopped = $request->stopped_en;
                 $about->identity = $request->identity_en;
+                $about->mission = $request->mission_en;
+                $about->plan = $request->plan_en;
                 $about->vision = $request->vision_en;
                 $about->message = $request->message_en;
                 $about->value = $request->value_en;
@@ -132,7 +141,22 @@ class AboutController extends Controller
             if ($latestAboutFrench) {
                 $about = About::where('aboutable_type', '=', AboutFrench::class)->where('aboutable_id', '=', $latestAboutFrench->id)->first();
 
-                $about->address = $request->address_ar;
+                $about->name = $request->name_fr;
+                $about->currency = $request->currency_fr;
+                $about->geographic_location = $request->geographic_location_fr;
+                $about->email = $request->email;
+                $about->web_site = $request->web_site;
+                $about->phone_number = $request->phone_number_fr;
+                $about->bp = $request->bp_fr;
+                $about->legal_situation = $request->legal_situation_fr;
+                $about->stopped = $request->stopped_fr;
+                $about->identity = $request->identity_fr;
+                $about->mission = $request->mission_fr;
+                $about->plan = $request->plan_fr;
+                $about->vision = $request->vision_fr;
+                $about->message = $request->message_fr;
+                $about->value = $request->value_fr;
+                $about->goal = $request->goal_fr;
                 $about->save();
             } else {
                 $aboutFrench = new AboutFrench();
@@ -142,13 +166,15 @@ class AboutController extends Controller
                 $about->name = $request->name_fr;
                 $about->currency = $request->currency_fr;
                 $about->geographic_location = $request->geographic_location_fr;
-                $about->email = $request->email_fr;
-                $about->web_site = $request->web_site_fr;
+                $about->email = $request->email;
+                $about->web_site = $request->web_site;
                 $about->phone_number = $request->phone_number_fr;
                 $about->bp = $request->bp_fr;
                 $about->legal_situation = $request->legal_situation_fr;
                 $about->stopped = $request->stopped_fr;
                 $about->identity = $request->identity_fr;
+                $about->mission = $request->mission_fr;
+                $about->plan = $request->plan_fr;
                 $about->vision = $request->vision_fr;
                 $about->message = $request->message_fr;
                 $about->value = $request->value_fr;
@@ -162,6 +188,7 @@ class AboutController extends Controller
 
             return redirect()->back()->withInput();
         } catch (Exception $e) {
+            dd($e);
             Session::flash('error', "Erreur survenue lors de l'enregistrement.");
         }
     }

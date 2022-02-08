@@ -27,20 +27,14 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [HomeController::class, 'index'])->name('home');
 
-Route::prefix('arabic')->group(function () {
-    Route::get('/', [ShowcaseController::class, 'index'])->name('home');
-});
+    Route::get('/arabic', [HomeController::class, 'translateInArabic'])->name('arabic');
 
-Route::prefix('english')->group(function () {
-    Route::get('/', [ShowcaseController::class, 'index'])->name('home');
-});
+    Route::get('/english', [HomeController::class, 'translateInEnglish'])->name('english');
 
-Route::prefix('french')->group(function () {
-    Route::get('/', [ShowcaseController::class, 'index'])->name('home');
-});
+    Route::get('/french', [HomeController::class, 'translateInFrench'])->name('french');
 
 // Route::get('/cookie/set',[CookieController::class,'setCookie']);
 // Route::get('/cookie/get',[CookieController::class,'getCookie']);
 
 
-Route::get('lang/{lang}', ['as' => 'lang.switch', 'uses' => [LanguageController::class,'switchLang']]);
+// Route::get('lang/{lang}', ['as' => 'lang.switch', 'uses' => [LanguageController::class,'switchLang']]);

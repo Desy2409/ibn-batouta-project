@@ -15,12 +15,12 @@ class CreateAdmissionsTable extends Migration
     {
         Schema::create('admissions', function (Blueprint $table) {
             $table->id();
-            $table->string('annual_registration_period');
-            $table->string('general_requirement');
-            $table->string('documents_to_provide');
-            $table->string('assessment_test');
-            $table->string('compulsory_fees');
-            $table->nullableMorphs('f');
+            $table->string('annual_registration_period')->nullable()->default('Aucune valeure définie');
+            $table->string('general_requirement')->nullable()->default('Aucune valeure définie');
+            $table->string('documents_to_provide')->nullable()->default('Aucune valeure définie');
+            $table->string('assessment_test')->nullable()->default('Aucune valeure définie');
+            $table->string('compulsory_fees')->nullable()->default('Aucune valeure définie');
+            $table->nullableMorphs('admissionable');
             $table->timestamps();
         });
     }
